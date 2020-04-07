@@ -1,5 +1,3 @@
-
-
 //Variable que trae el botón validar desde HTML
 let botonValidar = document.getElementById("validar");
 //Botón validar (click en el objeto botón)
@@ -16,7 +14,3 @@ botonValidar.addEventListener('click', (validar)=>{
 
   document.getElementById("tarjetaOculta").innerHTML = "holi" + validator.maskify();
 });
-
-  
-
-
