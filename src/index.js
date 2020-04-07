@@ -1,4 +1,4 @@
-import validator from './validator.js';
+
 
 //Variable que trae el botón validar desde HTML
 let botonValidar = document.getElementById("validar");
@@ -11,15 +11,12 @@ botonValidar.addEventListener('click', (validar)=>{
   validator.isValid(numberCard);
 });
 
-let botonConfirmaReserva = document.getElementById("botonConfirmarReserva");
-botonConfirmarReserva.addEventListener('click', ()=>{
-  window.location.href = "confirmation.html";
-  let numberCard = document.getElementById('tarjeta').value;
-  validator.maskify(numberCard);
-  document.getElementById("tarjetaOculta").innerHTML =validator.maskify();
+
+
+
+  document.getElementById("tarjetaOculta").innerHTML = "holi" + validator.maskify();
 });
 
   
 
 
-console.log(validator);
