@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>LA GATERA HOTELERA</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body background="FONDO.jpg">
+    <header class="informacion">
+      <center>
+	    <img id="logo" src="loguito.png"width="1000"
+      </center>
+    </header>
+
+    <div class="contenedor" style="display: none" id="formularioInicial">
+      <h1 align="center" class="titulo1">RESERVA CON NOSOTROS</h1><br><br>
+      <h3 class="titulo2">DATOS DE LA RESERVA</h3><br>
+
+      <form class= "datosReserva" id="datosReserva">
+        <label for="fechaDeIngreso">Fecha de ingreso:</label><br>
+        
+        <select name="diaDeIngreso">
+            <option value="dia">Día</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+        </select>
+        <select name="mesDeIngreso">
+            <option value="Mes">Mes</option>
+            <option value="Enero">Enero</option>
+            <option value="Febrero">Febrero</option>
+            <option value="Marzo">Marzo</option>
+            <option value="Abril">Abril</option>
+            <option value="Mayo">Mayo</option>
+            <option value="Junio">Junio</option>
+            <option value="Julio">Julio</option>
+            <option value="Agosto">Agosto</option>
+            <option value="Septiembre">Septiembre</option>
+            <option value="Octubre">Octubre</option>
+            <option value="Noviembre">Noviembre</option>
+            <option value="Diciembre">Diciembre</option>
+        </select><br>
+
+        <label for="fechaDeSalida">Fecha de salida:</label><br>
+        <select name="diaDeSalida">
+            <option value="dia">Día</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+        </select>
+        <select name="mesDeSalida">
+            <option value="Mes">Mes</option>
+            <option value="Enero">Enero</option>
+            <option value="Febrero">Febrero</option>
+            <option value="Marzo">Marzo</option>
+            <option value="Abril">Abril</option>
+            <option value="Mayo">Mayo</option>
+            <option value="Junio">Junio</option>
+            <option value="Julio">Julio</option>
+            <option value="Agosto">Agosto</option>
+            <option value="Septiembre">Septiembre</option>
+            <option value="Octubre">Octubre</option>
+            <option value="Noviembre">Noviembre</option>
+            <option value="Diciembre">Diciembre</option>
+        </select><br>
+
+        <label for="nombre">Nombre:</label><br>
+        <input id="nombre" size="30" type="text" name="nombre" placeholder="Escribe tu nombre completo" required><br>
+        <label for="email">Email:</label><br>
+        <input id="email" size="30" type="email" name="email" placeholder="ejemplo@email.com" required><br>
+        <label for="telefono">Teléfono:</label><br>
+        <input id="telefono" size="30" type="tel" name="telefono" placeholder="Ej. 9 12345678" required><br><br>
+     
+        <label class="habitaciones123" for="tipoDeHabitacion">Selecciona el tipo de habitación:</label><br>
+        <input type="radio" name="habitacion" value="habitacion1"> Habitación número 1
+        </label>
+        <label>
+        <input type="radio" name="habitacion" value="habitacion2"> Habitación número 2
+        </label>
+        <label>
+        <input type="radio" name="habitacion" value="habitacion3"> Habitación número 3
+        </label>
+        <br>
+        <img id='room_1'src="1.jpg"width="160"
+        height="160">
+        <img id='room_2' src="2.jpg"width="160"
+        height="160">
+        <img id='room_3'src="3.jpg"width="160"
+        height="160">
+        <br>
+      </form><br>
+
+      <h3 class="titulo3">DATOS DE LA TARJETA DE CRÉDITO</h3><br>
+      <form class="datosTarjeta" id="datosTarjeta">
+        <label for="nombreTitular">Nombre del titular: </label><br>
+        <input id="nombreTitular" size="30" type="text" name="nombreTitular" placeholder="Nombre completo" required><br><br>
+        <label for="pregunta">Ingresa tu número de tarjeta:</label><br>
+        <input id="tarjeta" size="30" type="text" name="nombre" placeholder="xxxx xxxx xxxx xxxx" required>
+        <button id="validar">validar</button>
+      </form>
+
+      <h3 style="display: none;"id="validacion1"></h3>
+      
+      <button id="botonConfirmarReserva">CONFIRMAR RESERVA</button>
+      <button onclick=location.href="index.html">VOLVER</button>
+	    
+    </div>
+    <div style="display: none" id="bloque2">
+      <h1 id="tarjetaOculta"></h1>
+      <button onclick=location.href="form.html">NUEVA RESERVA</button><br>
+      <button onclick=location.href="index.html">INICIO</button>
+    </div>
+    <script type="module" src="index.js"></script>
+  </body>
+  <footer class="contacto">
+      Contactanos Wsp +56934467866   instagram.com/Hostallagatahotelera.    contacto@hostallagatahotelera.com 
+    Todos los derechos reservados.  
+  </footer>
+</html>
