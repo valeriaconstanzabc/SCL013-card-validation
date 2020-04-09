@@ -14,6 +14,7 @@ botonValidar.addEventListener('click', (validar)=>{
   let numberCard = document.getElementById('tarjeta').value;
   if(validator.isValid(numberCard)==true){
     document.getElementById("validacion1").innerHTML = "tarjeta correcta";
+    document.getElementById("botonConfirmarReserva").style.display = "block";
   } else{
     document.getElementById("validacion1").innerHTML = "tarjeta incorrecta";
   }

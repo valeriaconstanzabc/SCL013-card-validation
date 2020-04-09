@@ -127,16 +127,17 @@
         <label for="email">Email:</label><br>
         <input id="email" size="30" type="email" name="email" placeholder="ejemplo@email.com" required><br>
         <label for="telefono">Teléfono:</label><br>
-        <input id="telefono" size="30" type="tel" name="telefono" placeholder="Ej. 9 12345678" required><br><br>
+        <input id="telefono" size="30" type="tel" name="telefono" maxlength="9" placeholder="Ej. 9 12345678" required><br><br>
      
         <label class="habitaciones123" for="tipoDeHabitacion">Selecciona el tipo de habitación:</label><br>
-        <input type="radio" name="habitacion" value="habitacion1"> Habitación número 1
+        <label>
+        <input class="uno" type="radio" name="habitacion" value="habitacion1"> Habitación número 1
         </label>
         <label>
-        <input type="radio" name="habitacion" value="habitacion2"> Habitación número 2
+        <input class="dos" type="radio" name="habitacion" value="habitacion2"> Habitación número 2
         </label>
         <label>
-        <input type="radio" name="habitacion" value="habitacion3"> Habitación número 3
+        <input class="tres" type="radio" name="habitacion" value="habitacion3"> Habitación número 3
         </label>
         <br>
         <img id='room_1'src="1.jpg"width="160"
@@ -153,20 +154,20 @@
         <label for="nombreTitular">Nombre del titular: </label><br>
         <input id="nombreTitular" size="30" type="text" name="nombreTitular" placeholder="Nombre completo" required><br><br>
         <label for="pregunta">Ingresa tu número de tarjeta:</label><br>
-        <input id="tarjeta" size="30" type="text" name="nombre" placeholder="xxxx xxxx xxxx xxxx" required>
-        <button id="validar">validar</button>
+        <input id="tarjeta" size="30" type="text" name="nombre" maxlength="16" placeholder="xxxx xxxx xxxx xxxx" required>
+        <button id="validar">validar</button><br><br>
       </form>
 
-      <h3 style="display: none;"id="validacion1"></h3>
+      <h5 style="display: none;"id="validacion1"></h5>
       
-      <button id="botonConfirmarReserva">CONFIRMAR RESERVA</button>
-      <button onclick=location.href="index.html">VOLVER</button>
-	    
+      <button id="volver" onclick=location.href="index.html">VOLVER</button>
+	    <button style="display: none" id="botonConfirmarReserva">CONFIRMAR RESERVA</button>
+
     </div>
     <div style="display: none" id="bloque2">
       <h1 id="tarjetaOculta"></h1>
-      <button onclick=location.href="form.html">NUEVA RESERVA</button><br>
-      <button onclick=location.href="index.html">INICIO</button>
+      <button id="nuevaReserva" onclick=location.href="form.html">NUEVA RESERVA</button>
+      <button id="inicio" onclick=location.href="index.html">INICIO</button>
     </div>
     <script type="module" src="index.js"></script>
   </body>

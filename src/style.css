@@ -1,98 +1,219 @@
 *{
-    margin: 0px;
-    padding: 0px 0px 0px 0px;
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+body {
+  color: white;
+  font-family: sans-serif;
+}
+
+.columnas {
+  column-count: 2;
+  column-gap: 3em;
+  margin: 0 auto;
+  text-align: justify;
+  padding:40px;
+  border:#02BFCC 4px solid;
+  border-top-left-radius:50px;
+  border-bottom-right-radius:50px;
+  border-top-right-radius:50px;
+  border-bottom-left-radius:50px;
+  width: 90%;
+  max-width: 850px;
+  background-color: rgba(0, 0, 0,.6)
+}
+
+.incluye1{
+  column-count: 2;
+  column-gap: 3em;
+  text-align: justify;
+  margin: 20px auto;
+  padding:40px;
+  border: #02BFCC 4px solid;
+  border-top-left-radius:50px;
+  border-bottom-right-radius:50px;
+  border-top-right-radius:50px;
+  border-bottom-left-radius:50px;
+  width: 90%;
+  max-width: 850px;
+  background-color: rgba(0, 0, 0,.6);
+}
+
+#botonReserva{
+  position: relative;
+  font-size:22px;
+  font-family:Verdana,Helvetica;
+  font-weight:bold;
+  color:white;
+  background:rgba(2,196,211) ;
+  border:0px;
+  width:160px;
+  height:60px;
+  margin: 0px 0px 0px 150px;
+  border-top-left-radius:50px;
+  border-bottom-right-radius:50px;
+  border-top-right-radius:50px;
+  border-bottom-left-radius:50px;
+  transition: 0.3s;
+}
+
+#botonReserva:hover{
+  transform: scale(1.2);
+}
+
+#botonConfirmarReserva{
+  position: relative;
+  left: 200px;
+  font-size: 15px;
+  font-family:Verdana,Helvetica;
+  color:white;
+  background:rgba(2,196,211) ;
+  border:0px;
+  width:160px;
+  height:50px;
+  margin: 0px 0px 0px 150px;
+  border-top-left-radius:50px;
+  border-bottom-right-radius:50px;
+  border-top-right-radius:50px;
+  border-bottom-left-radius:50px;
+  transition: 0.3s;
+}
+
+#botonConfirmarReserva:hover{
+  transform: scale(1.2);
+}
+
+#volver{
+  position: relative;
+  top: 30px;
+  right: 50px;
+  font-size: 15px;
+  font-family:Verdana,Helvetica;
+  color:white;
+  background:rgba(2,196,211) ;
+  border:0px;
+  width:160px;
+  height:30px;
+  margin: 0px 0px 0px 150px;
+  border-top-left-radius:50px;
+  border-bottom-right-radius:50px;
+  border-top-right-radius:50px;
+  border-bottom-left-radius:50px;
+  transition: 0.3s;
+}
+
+#volver:hover{
+  transform: scale(1.2);
+}
+
+#nuevaReserva{
+  position: relative;
+  right: 50px;
+  font-size: 15px;
+  font-family:Verdana,Helvetica;
+  color:white;
+  background:rgba(2,196,211) ;
+  border:0px;
+  width:160px;
+  height:50px;
+  margin: 0px 0px 0px 150px;
+  border-top-left-radius:50px;
+  border-bottom-right-radius:50px;
+  border-top-right-radius:50px;
+  border-bottom-left-radius:50px;
+  transition: 0.3s;
+}
+#nuevaReserva:hover{
+  transform: scale(1.2);
+}
+
+#inicio{
+  position: relative;
+  left: 60px;
+  font-size: 15px;
+  font-family:Verdana,Helvetica;
+  color:white;
+  background:rgba(2,196,211) ;
+  border:0px;
+  width:160px;
+  height:50px;
+  margin: 0px 0px 0px 150px;
+  border-top-left-radius:50px;
+  border-bottom-right-radius:50px;
+  border-top-right-radius:50px;
+  border-bottom-left-radius:50px;
+  transition: 0.3s;
+}
+#inicio:hover{
+  transform: scale(1.2);
+}
+
+#validar{
+  position: relative;
+  right: 50px;
+  font-size: 15px;
+  font-family:Verdana,Helvetica;
+  border:0px;
+  width:100px;
+  height:20px;
+  margin: 0px 0px 0px 60px;
+  border-top-left-radius:20px;
+  border-bottom-right-radius:20px;
+  border-top-right-radius:20px;
+  border-bottom-left-radius:20px;
+  transition: 0.3s;
+}
+
+#logo{
+  padding: 30px 0px 10px 50px;
+}
+
+#formularioInicial{    
+  text-align: justify;
+  margin: 0 auto;
+  text-align: justify;     
+  /*margen interior del cuadrado*/
+  margin-top: 30px;
+  padding:40px 50px 60px 50px;
+  border: #02BFCC 4px solid;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0,.6);
+  width: 90%;
+  max-width: 650px;
   }
-  
-  body {
-    color: white;
-    font-family: sans-serif;
-  }
-  
-  .columnas {
-    column-count: 2;
-    column-gap: 3em;
-    margin: 0 auto;
-    text-align: justify;
-    padding:40px;
-    border:#02BFCC 4px solid;
-    border-top-left-radius:50px;
-    border-bottom-right-radius:50px;
-    border-top-right-radius:50px;
-    border-bottom-left-radius:50px;
-    width: 90%;
-    max-width: 850px;
-    background-color: rgba(0, 0, 0,.6)
-  }
-  
-  .incluye1{
-    column-count: 2;
-    column-gap: 3em;
-    text-align: justify;
-    margin: 20px auto;
-    padding:40px;
-    border: #02BFCC 4px solid;
-    border-top-left-radius:50px;
-    border-bottom-right-radius:50px;
-    border-top-right-radius:50px;
-    border-bottom-left-radius:50px;
-    width: 90%;
-    max-width: 850px;
-    background-color: rgba(0, 0, 0,.6);
-  }
-  
-  #botonReserva{
-    position: relative;
-    font-size:22px;
-    font-family:Verdana,Helvetica;
-    font-weight:bold;
-    color:white;
-    background:rgba(2,196,211) ;
-    border:0px;
-    width:160px;
-    height:60px;
-    margin: 0px 0px 0px 150px;
-    border-top-left-radius:50px;
-    border-bottom-right-radius:50px;
-    border-top-right-radius:50px;
-    border-bottom-left-radius:50px;
-  }
-  
-  #logo{
-    padding: 30px 0px 10px 50px;
-  }
-  
-  #formularioInicial{    
-    text-align: justify;
-    margin: 0 auto;
-    text-align: justify;     
-    /*margen interior del cuadrado*/
-    margin-top: 30px;
-    padding:40px 50px 40px 50px;
-    border: #02BFCC 4px solid;
-    border-radius: 20px;
-    background-color: rgba(0, 0, 0,.6);
-    width: 90%;
-    max-width: 650px;
-    }
-  
-  .contacto{
-    text-align: justify;
-    margin: 10px;
-    padding: 5px;     
-    background-color: rgba(0, 0, 0,.75);
-  }
-  
-  label{
-    display: inline-block;
-  }
-  
-  .datosReserva img{
-    border: #02BFCC 4px solid;
-    border-radius: 20px;
-    margin: 3%
-  }
-  
-  .habitacion{
-    margin-left: 40px;
-  }
-  
+
+.contacto{
+  text-align: justify;
+  margin: 10px;
+  padding: 5px;     
+  background-color: rgba(0, 0, 0,.75);
+}
+
+label{
+  display: inline-block;
+}
+
+.datosReserva img{
+  border: #02BFCC 4px solid;
+  border-radius: 20px;
+  margin: 3%
+}
+
+.habitacion{
+  margin-left: 40px;
+}
+
+#bloque2{
+  text-align: justify;
+  margin: 20px auto;
+  padding:40px;
+  border: #02BFCC 4px solid;
+  border-top-left-radius:50px;
+  border-bottom-right-radius:50px;
+  border-top-right-radius:50px;
+  border-bottom-left-radius:50px;
+  width: 90%;
+  max-width: 850px;
+  background-color: rgba(0, 0, 0,.6);
+}
