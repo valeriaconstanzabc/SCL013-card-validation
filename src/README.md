@@ -25,7 +25,8 @@ usuarios se sientan atraidos por el ambiente que se vive en la hostal. Ademas la
 ![Screenshot](screenshot.png)
 
 ### Feedback recibido indicando las mejoras a realizar.
-* lallallallalllalalalllalallallallallalllalalalllalallallallallalllalalalllalallallallalla
+* Uno de los feedback que recibimos de parte de nuestras compañeras, fue que todas nuestras páginas estuvieran enlazadas entre sí, por lo que agregamos un nuevos botones para volver al index principal.
+* Otro de los feedback fue el agrandar el logo del hostal y enlazarlo a la página principal, ya que no resultaba atractivo ni funcional.
 
 ### Prototipo final.
 
