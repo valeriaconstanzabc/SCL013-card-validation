@@ -13,7 +13,9 @@ _Nuestro proyecto consiste en la página web de un hostal de playa. En esta pág
 ## Investigación UX :mag_right:
 
 ### ¿Quiénes son los usuarios y los objetivos en relación con el producto?
-* lallallallalllalalalllalallallallallalllalalalllalallallallallalllalalalllalallall
+* Nuestro público esta dentro del rango etario considerado "adulto Joven" [27-40 años].Por esto nuesto diseño mezcla 
+tanto la esencia hippie del hostal con toques modernos (colores, y juegos de transparencia) para que nuestrxs
+usuarios se sientan atraidos por el ambiente que se vive en la hostal. Ademas la web cuenta con un formulario simple e intuitivo para poder reservar.
 
 ### ¿Cómo el producto soluciona los problemas/necesidades de dichos usuarios?
 * lallallallalllalalalllalallallallallalllalalalllalallallallallalllalalalllalallalla
