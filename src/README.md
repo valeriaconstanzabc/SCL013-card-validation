@@ -18,7 +18,7 @@ tanto la esencia hippie del hostal con toques modernos (colores, y juegos de tra
 usuarios se sientan atraidos por el ambiente que se vive en la hostal. Ademas la web cuenta con un formulario simple e intuitivo para poder reservar.
 
 ### ¿Cómo el producto soluciona los problemas/necesidades de dichos usuarios?
-* lallallallalllalalalllalallallallallalllalalalllalallallallallalllalalalllalallalla
+* al ser una web intuitiva (pues tiene botones grandes, llamativos, y en español que idican la "accion" a seguir),logra que el usuario pueda realizar su reserva y validar su tarjeta en la misma página sin necesidad de recurrir a una página externa. 
 
 ### Primer prototipo en papel.
 
