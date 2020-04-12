@@ -30,10 +30,10 @@ usuarios se sientan atraidos por el ambiente que se vive en la hostal. Ademas la
 
 ### Prototipo final.
 
-![páginaPrincipal](prototipo1.png)
-![páginaReserva](prototipo2.png)
-![páginaValidación](prototipo2.5.png)
-![páginaConfirmación](prototi3.png)
+![páginaPrincipal](prototipo1.jpg)
+![páginaReserva](prototipo2.jpg)
+![páginaValidación](prototipo2.5.jpg)
+![páginaConfirmación](prototi3.jpg)
 
 * [Prototipo animado](https://valeriabrito679410.invisionapp.com/public/share/3F13FRZWZ4#screens/477294219) - Prototipo realizado con InVision
 
