@@ -1,8 +1,23 @@
 //Llamamos aL objeto para que arroje el resultado
 import validator from './validator.js';
 
-//partimos mostrando el formulario que está englobado en un div con id formularioInicial
-document.getElementById("formularioInicial").style.display="block";
+document.getElementById("contenedor1").style.display="block";
+
+let botonReserva = document.getElementById("botonReserva");
+
+botonReserva.addEventListener('click', ()=>{
+  document.getElementById("contenedor1").style.display = "none";
+  //partimos mostrando el formulario que está englobado en un div con id formularioInicial
+  document.getElementById("formularioInicial").style.display="block";
+});
+
+let botonNuevaReserva = document.getElementById("nuevaReserva");
+
+botonNuevaReserva.addEventListener('click', ()=>{
+  document.getElementById("contenedor1").style.display = "none";
+  //partimos mostrando el formulario que está englobado en un div con id formularioInicial
+  document.getElementById("formularioInicial").style.display="block";
+});
 
 //Variable que trae el botón validar desde HTML
 let botonValidar = document.getElementById("validar");
