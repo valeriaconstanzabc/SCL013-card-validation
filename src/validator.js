@@ -28,11 +28,10 @@ const validator = {//constante que contiene una funcion
       if ((suma % 10) == 0){ // si suma que ya no es 0 pues se agrego digit_position +  parseInt(chain.charAt(i)) tiene residuo 0 al ser dividida por 10
         return true;//entonces de retorna la funcion como verdadera
       } else {
-          return false;//de lo contrario se retornara false
+        return false;//de lo contrario se retornara false
       }
-    return numberCard; //se retorna el valor de la tarjeta
   },
-//4137894711755904
+
   maskify: (numberCard) => {
     //creo una variable que almacena string al inicio esta vacia//
     let hiddenString = "";

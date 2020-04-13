@@ -6,17 +6,14 @@
     <title>Hostal La Gatera Hotelera</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body background="FONDO.jpg">
+<body background="FONDO1.jpg">
   
   <header class="informacion">
-    <center>
-	  <a href="index.html"> <img id="logo" src="loguito.png"width="1000"> </a>
-    </center>
+    <a title="hostal la gatera hotelera" href="index.html"><img id="logo" src="loguito.png" /></a>
   </header>
 
   <div style="display: none" id="contenedor1" class="contenedor1">
-    <div class="columnas"
-    <main class="reseña">
+    <main class="columnas">
       <h1>¿Quienes somos?</h1><br><br>
       Hostal La gata hotelera es un hermoso lugar dónde se puede disfrutar de un nuevo y lindo hotel de descanso, acondicionado para brindar a nuestros clientes comodidad, calor de hogar y seguridad en su estadía.<br><br>
       Atendido por sus dueños, al pasajero le espera una confortable experiencia de buena atención y estilo en sus instalaciones. Nuestra intención es que hostal La gata hotelera sea sinónimo de descanso, tranquilidad y de recuerdos inolvidables.<br><br>
@@ -25,13 +22,11 @@
     </main>
 
     <aside class="reservacion">
-      <img id='room_1'src="4.jpg"width="400"
-      height="260"><br><br>
+      <a img id="room" src="4.jpg"></a><br><br>
       <button id="botonReserva">RESERVA</button> <br><br>
     </aside>
-    </div>
 
-    <div class="incluye1"
+    <div class="incluye1">
      <h1>SERVICIOS</h1><br><br>
       <ul> 
         <li> Desayuno incluido </li><br>
@@ -174,12 +169,9 @@
         <input class="tres" type="radio" name="habitacion" value="habitacion3"> Habitación número 3
         </label>
         <br>
-        <img id='room_1'src="1.jpg"width="160"
-        height="160">
-        <img id='room_2' src="2.jpg"width="160"
-        height="160">
-        <img id='room_3'src="3.jpg"width="160"
-        height="160">
+        <img id="room_1" src="1.jpg">
+        <img id="room_2" src="2.jpg">
+        <img id="room_3" src="3.jpg">
         <br>
       
       <h3 class="titulo3">DATOS DE LA TARJETA DE CRÉDITO</h3><br>
@@ -187,14 +179,15 @@
         <label for="nombreTitular">Nombre del titular: </label><br>
         <input id="nombreTitular" size="30" type="text" required name="nombreTitular" placeholder="Nombre completo" ><br><br>
         <label for="pregunta">Ingresa tu número de tarjeta:</label><br>
-        <input id="tarjeta" size="30" type="text" required name="nombre" minlength="16" maxlength="16" placeholder="xxxx xxxx xxxx xxxx" required>
+        <input id="tarjeta" size="30" type="text" name="nombre" minlength="16" maxlength="16" placeholder="xxxx xxxx xxxx xxxx" required>
         <button id="validar">validar</button><br><br>
       </form>
       </form><br>
 
-      <h5 style="display: none;"id="validacion1"></h5>
-      
-      <button id="volver" onclick=location.href="index.html">VOLVER</button>
+      <h5 style="display:none" id="validacion1"></h5>
+    
+      <button id="volver" onclick="index.html">VOLVER</button>
+
 	    <button style="display: none" id="botonConfirmarReserva">CONFIRMAR RESERVA</button>
 
     </div>
@@ -205,15 +198,14 @@
       <h5 id="datosEnviados"></h5><br><br>
       </center>
       <button id="nuevaReserva">NUEVA RESERVA</button>
-      <button id="inicio" onclick=location.href="index.html">INICIO</button>
+      <button id="inicio" onclick="index.html">INICIO</button>
     </div>
   </div>
     <footer class="contacto">
       Contactanos Wsp +56934467866   instagram.com/Hostallagatahotelera.    contacto@hostallagatahotelera.com 
     Todos los derechos reservados.  
     </footer>
-    </div>
-  
+   
   <script type="module" src="index.js"></script>
 </body>
 
