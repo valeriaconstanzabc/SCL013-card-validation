@@ -30,7 +30,6 @@ const validator = {//constante que contiene una funcion
       } else {
           return false;//de lo contrario se retornara false
       }
-    return numberCard; //se retorna el valor de la tarjeta
   },
 //4137894711755904
   maskify: (numberCard) => {

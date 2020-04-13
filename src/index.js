@@ -42,7 +42,7 @@ botonValidar.addEventListener('click', (validar)=>{
   }
 });
 
-let botonConfirmaReserva = document.getElementById("botonConfirmarReserva");
+let botonConfirmarReserva = document.getElementById("botonConfirmarReserva");
 
 botonConfirmarReserva.addEventListener('click', ()=>{
   document.getElementById("formularioInicial").style.display="none";
