@@ -12,7 +12,7 @@ describe('validator', () => {
     });
 
     test('debería retornar true para "4137894711755904"', () => {
-      // escribe aquí tu test
+      validator.isValid(validator.isValid('true'), '4137894711755904');
     });
   });
 
@@ -22,7 +22,7 @@ describe('validator', () => {
     });
 
     test('Debería retornar "############5616" para "4556364607935616"', () => {
-      // escribe aquí tu test
+      validator.maskify(validator.maskify('############5616'), '4556364607935616');
     });
   });
 });
