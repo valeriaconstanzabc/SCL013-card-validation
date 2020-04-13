@@ -7,7 +7,6 @@ document.getElementById("formularioInicial").style.display="block";
 //Variable que trae el botón validar desde HTML
 let botonValidar = document.getElementById("validar");
 
-let numberCars
 //Botón validar (click en el objeto botón)
 botonValidar.addEventListener('click', (validar)=>{
   //Nos trae la información desde el html que está escondida en un principio
@@ -42,7 +41,9 @@ botonConfirmarReserva.addEventListener('click', ()=>{
   let numberCard = document.getElementById('tarjeta').value;
   validator.maskify(numberCard);
   document.getElementById("bloque2").style.display="block";
-  document.getElementById("tarjetaOculta").innerHTML = "Felicitaciones " +porElementos4+ "!" + " su reserva para el día " 
+  document.getElementById("felicitaciones").innerHTML = "Felicitaciones " +porElementos4+ "!";
+  document.getElementById("tarjetaOculta").innerHTML = "Su reserva para el día " 
   + porElementos + " de " + porElementos1 + " hasta el día " + porElementos2 + " de " + porElementos3
-  + " se a realizado con éxito con la tarjeta " + validator.maskify(numberCard)+". Los datos de esta reserva han sido enviados al email " + porElementos5;
+  + " se a realizado con éxito con la tarjeta " + validator.maskify(numberCard);
+  document.getElementById("datosEnviados").innerHTML ="Los datos de esta reserva han sido enviados al email " + porElementos5;
 });
