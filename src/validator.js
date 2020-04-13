@@ -1,36 +1,38 @@
-let digit_position = null; //digito de posicion o cifra
-let digit_chain = null; //digito de cadena o cifra
-let suma = 0;
+let digit_position = null; //digito de posicion o cifra vacio o sin valor
+let digit_chain = null; //digito de cadena o cifra vacio o sin valor
+let suma = 0;//constante de suma
 
-const validator = {
+const validator = {//constante que contiene una funcion 
 
-  isValid: (numberCard) => {
-    let chain = numberCard.toString(); //Chain=cadena
-    let long = chain.length; //log=largo
+  isValid: (numberCard) => {//funcion isValid que comprueba si el numero ingresado es valido o no
+    let chain = numberCard.toString(); //chain devuelve una cadena que representa al objeto que ingreso el usuario.
+    let long = chain.length; //long cuenta el largo de la cadena chain
 
-    for (var i=0; i < long; i+=2){
-    digit_position = parseInt(chain.charAt(i))*2;
+ 
 
-    if (digit_position > 9){ 
-       digit_chain = digit_position.toString();
+    for (let i=0; i < long; i+=2){//creo un for que comenzara a iterar en la posicion 0 es decir el primer digito de mi cadena, llegara hasta que sea menor al largo de la cadena y ira avanzando de 2 en 2
+    digit_position = parseInt(chain.charAt(i))*2;//se crea una variable tipo numero que al acceder a cada posicion(i) y multiplicar el valor del digito en esa posicion por 2 
+
+    if (digit_position > 9){ //si el valor que se obtiene es mayora 9 y porlo tanto tiene 2 componentes
+       digit_chain = digit_position.toString();//devuelve una cadena (para poer acceder a los componenetes de la cadena)que represeta al objeto que se transformo a numero y se multiplico por 2
        digit_position = parseInt(digit_chain.charAt(0)) + 
-     parseInt(digit_chain.charAt(1));
-     }
+       parseInt(digit_chain.charAt(1));//transforma a numero cada integrante de la cadena accediendo a ellos segun su posicion con charAt para luego sumarlos
+      }
 
-    suma+=digit_position;
+    suma+=digit_position;//suma lo valores uno por uno hasta llegar a i < long a una variabla suma definida al comienzo con valor 0 (suma los valores en posiciones definidas por el for)
     }
 
-    for (let i=1; i < long; i+=2){
-      suma += parseInt(chain.charAt(i));
-    }	
-      if ((suma % 10) == 0){ 
-        return true;
+    for (let i=1; i < long; i+=2){// parte en la posicion 1 de la cadena hasta llegar a i < long avanzando de 2 en 2
+      suma += parseInt(chain.charAt(i));//suma a la variable suma definida al comienzo con valor 0 los valores de la cadena que los tranforma a numero (parseInt) segun su posicion (charat(i))
+    } 
+      if ((suma % 10) == 0){ // si suma que ya no es 0 pues se agrego digit_position +  parseInt(chain.charAt(i)) tiene residuo 0 al ser dividida por 10
+        return true;//entonces de retorna la funcion como verdadera
       } else {
-          return false;
+          return false;//de lo contrario se retornara false
       }
-    return numberCard;
+    return numberCard; //se retorna el valor de la tarjeta
   },
-
+//4137894711755904
   maskify: (numberCard) => {
     //creo una variable que almacena string al inicio esta vacia//
     let hiddenString = "";

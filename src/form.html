@@ -10,7 +10,7 @@
   <body background="FONDO.jpg">
     <header class="informacion">
       <center>
-	    <img id="logo" src="loguito.png"width="1000"
+      <a href="index.html"> <img id="logo" src="loguito.png"width="1000"> </a>
       </center>
     </header>
 
@@ -152,9 +152,9 @@
       <h3 class="titulo3">DATOS DE LA TARJETA DE CRÉDITO</h3><br>
       <form class="datosTarjeta" id="datosTarjeta">
         <label for="nombreTitular">Nombre del titular: </label><br>
-        <input id="nombreTitular" size="30" type="text" name="nombreTitular" placeholder="Nombre completo" required><br><br>
+        <input id="nombreTitular" size="30" type="text" required name="nombreTitular" placeholder="Nombre completo" ><br><br>
         <label for="pregunta">Ingresa tu número de tarjeta:</label><br>
-        <input id="tarjeta" size="30" type="text" name="nombre" maxlength="16" placeholder="xxxx xxxx xxxx xxxx" required>
+        <input id="tarjeta" size="30" type="text" required name="nombre" minlength="16" maxlength="16" placeholder="xxxx xxxx xxxx xxxx" required>
         <button id="validar">validar</button><br><br>
       </form>
 
@@ -165,14 +165,21 @@
 
     </div>
     <div style="display: none" id="bloque2">
-      <h1 id="tarjetaOculta"></h1>
+      <center>
+      <h1 id="felicitaciones"></h1><br><br>
+      <h3 id="tarjetaOculta"></h3><br>
+      <h5 id="datosEnviados"></h5><br><br>
+      </center>
       <button id="nuevaReserva" onclick=location.href="form.html">NUEVA RESERVA</button>
       <button id="inicio" onclick=location.href="index.html">INICIO</button>
     </div>
     <script type="module" src="index.js"></script>
   </body>
   <footer class="contacto">
-      Contactanos Wsp +56934467866   instagram.com/Hostallagatahotelera.    contacto@hostallagatahotelera.com 
-    Todos los derechos reservados.  
+      Contactanos &nbsp;&nbsp;&nbsp;&nbsp;
+      Wsp +56934467866 &nbsp;&nbsp;&nbsp;&nbsp;
+      instagram.com/Hostallagatahotelera.  &nbsp;&nbsp;&nbsp;&nbsp;
+      contacto@hostallagatahotelera.com  &nbsp;&nbsp;&nbsp;&nbsp;
+      Todos los derechos reservados.  
   </footer>
 </html>
