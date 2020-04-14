@@ -10,6 +10,8 @@ _Nuestro proyecto consiste en la página web de un hostal de playa. En esta pág
 
 ![Screenshot](screenshot.png)
 
+* [Página La gatera hotelera](https://valeriaconstanzabc.github.io/SCL013-card-validation/src/index.html)
+
 ## Investigación UX :mag_right:
 
 ### ¿Quiénes son los usuarios y los objetivos en relación con el producto?
@@ -22,7 +24,9 @@ usuarios se sientan atraidos por el ambiente que se vive en la hostal. Ademas la
 
 ### Primer prototipo en papel.
 
-![Screenshot](screenshot.png)
+![PrimerPrototipo](1PrototipoAntiguo.jpg)
+
+![PrimerPrototipo](2PrototipoAntiguo.jpg)
 
 ### Feedback recibido indicando las mejoras a realizar.
 * Uno de los feedback que recibimos de parte de nuestras compañeras, fue que todas nuestras páginas estuvieran enlazadas entre sí, por lo que agregamos un nuevos botones para volver al index principal.
