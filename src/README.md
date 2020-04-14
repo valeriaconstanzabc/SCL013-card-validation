@@ -8,7 +8,7 @@ _Nuestro proyecto consiste en la página web de un hostal de playa. En esta pág
 ![paginaDeFormulario](2pagina.png)
 ![paginaConfirmacion](3pagina.png)
 
-* [Página La gatera hotelera](https://valeriaconstanzabc.github.io/SCL013-card-validation/src/index.html)
+* [Página La gatera hotelera](https://niamoyano91.github.io/SCL013-card-validation/src/index.html)
 
 ## Investigación UX :mag_right:
 
