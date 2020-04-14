@@ -4,11 +4,9 @@ _Nuestro proyecto consiste en la página web de un hostal de playa. En esta pág
 
 ### Imagen final del proyecto:ocean:
 
-![paginaPrincipal](Captura de Pantalla 2020-04-14 a la(s) 10.45.31.png)
-
-![paginaDeFormulario](Captura de Pantalla 2020-04-14 a la(s) 10.47.16.png)
-
-![paginaConfirmacion](Captura de Pantalla 2020-04-14 a la(s) 10.47.28.png)
+![paginaPrincipal](1pagina.png)
+![paginaDeFormulario](2pagina.png)
+![paginaConfirmacion](3pagina.png)
 
 * [Página La gatera hotelera](https://valeriaconstanzabc.github.io/SCL013-card-validation/src/index.html)
 
