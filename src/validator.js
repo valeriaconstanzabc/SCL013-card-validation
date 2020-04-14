@@ -25,7 +25,9 @@ const validator = {//constante que contiene una funcion
     for (let i=1; i < long; i+=2){// parte en la posicion 1 de la cadena hasta llegar a i < long avanzando de 2 en 2
       suma += parseInt(chain.charAt(i));//suma a la variable suma definida al comienzo con valor 0 los valores de la cadena que los tranforma a numero (parseInt) segun su posicion (charat(i))
     } 
-      if ((suma % 10) == 0){ // si suma que ya no es 0 pues se agrego digit_position +  parseInt(chain.charAt(i)) tiene residuo 0 al ser dividida por 10
+      if( suma == 0){
+        return false;
+      }else if ((suma % 10) == 0){ // si suma que ya no es 0 pues se agrego digit_position +  parseInt(chain.charAt(i)) tiene residuo 0 al ser dividida por 10
         return true;//entonces de retorna la funcion como verdadera
       } else {
         return false;//de lo contrario se retornara false

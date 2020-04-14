@@ -33,7 +33,7 @@ botonValidar.addEventListener('click', (validar)=>{
   if(validator.isValid(numberCard)==true){
   document.getElementById("validacion1").innerHTML = "tarjeta correcta";
   document.getElementById("botonConfirmarReserva").style.display = "block";
-  if (numberCard==0||numberCard==" "||numberCard==null)
+  }else if (numberCard==" "||numberCard==null){
     document.getElementById("validacion1").innerHTML = "Ingresa el número de tu tarjeta";
     return false;
   } else{
