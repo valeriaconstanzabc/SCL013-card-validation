@@ -25,7 +25,6 @@ usuarios se sientan atraidos por el ambiente que se vive en la hostal. Ademas la
 ### Primer prototipo en papel.
 
 ![PrimerPrototipo](1PrototipoAntiguo.jpg)
-
 ![PrimerPrototipo](2PrototipoAntiguo.jpg)
 
 ### Feedback recibido indicando las mejoras a realizar.
