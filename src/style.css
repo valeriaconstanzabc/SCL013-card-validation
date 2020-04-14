@@ -16,7 +16,7 @@ body {
   padding-right:0px,0px,0px,0px;
   background-image: url("loguito.png");
   background-position: center;
-  background-size: initial;
+  background-repeat: no-repeat;
   position: relative;
 
 }
