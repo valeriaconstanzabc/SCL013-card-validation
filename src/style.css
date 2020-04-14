@@ -217,6 +217,14 @@ label{
   margin: 3%
 }
 
+#room_1, #room_2, #room_3{
+  width: 150px;
+  height: 150px;
+  border: #02BFCC 4px solid;
+  border-radius: 20px;
+  margin: 3%
+}
+
 .habitacion{
   margin-left: 40px;
 }

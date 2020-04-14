@@ -10,11 +10,10 @@ botonReserva.addEventListener('click', ()=>{
   //partimos mostrando el formulario que está englobado en un div con id formularioInicial
   document.getElementById("formularioInicial").style.display="block";
 });
-
+//boton para volver al formulario y realizar nueva reserva
 let botonNuevaReserva = document.getElementById("nuevaReserva");
-
 botonNuevaReserva.addEventListener('click', ()=>{
-  document.getElementById("contenedor1").style.display = "none";
+  document.getElementById("bloque2").style.display = "none";
   //partimos mostrando el formulario que está englobado en un div con id formularioInicial
   document.getElementById("formularioInicial").style.display="block";
 });
