@@ -1,4 +1,4 @@
-# HOSTAL LA GATERA HOTELERA :smiley_cat:
+# HOSTAL LA GATERA HOTELERA :smiley_cat:prueba
 
 _Nuestro proyecto consiste en la página web de un hostal de playa. En esta página podrás conocer un poco más sobre la historia e instalaciones del hostal y te permitirá realizar una reserva en las dependencias del él._
 
