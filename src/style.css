@@ -9,6 +9,7 @@ body {
 }
 
 .columnas {
+  position: relative;
   column-count: 2;
   column-gap: 3em;
   margin: 0 auto;
@@ -22,6 +23,41 @@ body {
   width: 90%;
   max-width: 850px;
   background-color: rgba(0, 0, 0,.6)
+}
+
+#room{
+  width: 350px;
+  height: 300px;
+  border-radius:10px;
+  position: relative;
+  top:  70px;
+  left: 45px;
+}
+
+.reservacion{
+  position: relative;
+  top: 60px;
+  left: -40px;
+}
+
+#botonReserva{
+  position: relative;
+  top:  10px;
+  left: 45px;
+  font-size:22px;
+  font-family:Verdana,Helvetica;
+  font-weight:bold;
+  color:white;
+  background:rgba(2,196,211) ;
+  border:0px;
+  width:160px;
+  height:60px;
+  margin: 0px 0px 0px 150px;
+  border-top-left-radius:50px;
+  border-bottom-right-radius:50px;
+  border-top-right-radius:50px;
+  border-bottom-left-radius:50px;
+  transition: 0.3s;
 }
 
 .incluye1{
@@ -38,24 +74,6 @@ body {
   width: 90%;
   max-width: 850px;
   background-color: rgba(0, 0, 0,.6);
-}
-
-#botonReserva{
-  position: relative;
-  font-size:22px;
-  font-family:Verdana,Helvetica;
-  font-weight:bold;
-  color:white;
-  background:rgba(2,196,211) ;
-  border:0px;
-  width:160px;
-  height:60px;
-  margin: 0px 0px 0px 150px;
-  border-top-left-radius:50px;
-  border-bottom-right-radius:50px;
-  border-top-right-radius:50px;
-  border-bottom-left-radius:50px;
-  transition: 0.3s;
 }
 
 #botonReserva:hover{
@@ -109,7 +127,6 @@ body {
 
 #nuevaReserva{
   position: relative;
-  right: 50px;
   font-size: 15px;
   font-family:Verdana,Helvetica;
   color:white;
